@@ -109,7 +109,7 @@ add this HTML immediately after the YAML front matter in `index.md`:
 <img src="/images/site_banner.png" alt="Group Website with Jekyll">
 ```
 
-![Group Website with Jekyll](/files/site_banner.png)
+![Group Website with Jekyll]({{ site.url }}/files/site_banner.png)
 
 Adding this `img` element should result in this title banner appearing
 at the top of your page.
